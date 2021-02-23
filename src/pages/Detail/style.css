@@ -1,0 +1,55 @@
+h1,h3, h2{
+    color: #3a363a;
+    font-size: 1.2rem;
+}
+.update-Btn {
+    background-color: #6c64df;
+}
+.external-btn{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #5c33ff;
+    padding: 0.2rem;
+    
+}
+.external-btn a{
+    color: #5c33ff !important;
+}
+.external-btn:hover{
+    border-radius: 5px;
+    background-color: #5c33ff;
+    border: 1px solid #5c33ff;
+    padding: 0.2rem;
+    
+}
+.external-btn a:hover{
+    color: #fff !important;
+}
+.hoursDay {
+    text-align: left;
+    display: block;
+   
+}
+.hoursTime{
+    text-align: right;
+}
+.hoursTime {
+    display: block;
+}
+@media (min-width: 575px){
+    .dailyHours{
+        margin: 0 25% 0 25%;
+    }
+}
+span {
+    border-bottom: 1px solid #5c33ff;
+}
+div.makeStyles-container-1, div.MuiFormLabel-root, div.MuiInput-input, div.MuiInputLabel-animated, div.MuiInputBase-root, div.MuiInputBase-input, input#MuiInputBase-input, div.MuiInput-formControl{
+    color: #5c33ff;
+}
+li {
+    list-style-type: none;
+    font-size: 1.1rem;
+    color: #5c33ff;
+    padding-left: none;
+}
