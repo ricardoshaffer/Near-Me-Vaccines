@@ -1,0 +1,53 @@
+
+
+@media (max-width: 575px){
+    .img-list{
+        border-radius: 10px;
+        width: 100%;
+        padding:0.5rem;
+    }
+}
+@media (min-width: 576px){
+    button{
+        margin-right: 0.5rem;
+    }
+    .img-list{
+        border-radius: 20px;
+        object-fit: cover;
+        height:250px;
+        width: 250px;
+        resize: both;
+        padding:1rem;
+        float: left;
+    }
+    li{
+        text-align:left ;
+    }
+    ul {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .btn-listing{
+        float: right;
+    }
+}
+
+.business-title {
+    font-size:1.2rem;
+    font-weight: bolder;
+}
+.no-match{
+    color: #5c33ff !important;
+    font-size: 1.5rem;
+  }
+
+h1, h2, h3 {
+    color: #152939 !important;
+}
+.row {
+    margin-bottom: 0.5rem;
+}
+.vertical-align{
+    margin-top: auto;
+    margin-bottom: auto;
+}
