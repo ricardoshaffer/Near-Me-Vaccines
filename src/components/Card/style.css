@@ -1,0 +1,42 @@
+.card-body{
+    padding: 0.25rem;
+}
+.card-text-no-shadow {
+    font-size: 1.0rem;
+    margin-block-end: 0em;
+    text-align:left;
+    line-height: 1rem;
+}
+.card-title{
+    margin-bottom: 0.5rem;
+}
+.card-title h5{
+    font-size:1.25rem;
+    font-weight: 700;
+}
+.card-text{
+    padding-left:  5%;
+    padding-right: 5%;
+}
+p{
+    padding: 0.25em;
+}
+.project {
+    color: #fff;
+    width: 100%;
+  }
+  .search-card {
+    border: none !important;
+    color: #fff;
+    padding:5px;
+    background-color:#5c33ff !important;
+    margin-bottom: 5px;
+    box-shadow: 9px 9px 16px rgba(255,255,255, 0.75), -9px -9px 16px rgba(99, 97, 94, 0.25);
+    -webkit-box-shadow: 9px 9px 16px rgba(255,255,255, 0.75), -9px -9px 16px rgba(99, 97, 94, 0.25);
+    -moz-box-shadow: 9px 9px 16px rgba(255,255,255, 0.75), -9px -9px 16px rgba(99, 97, 94, 0.25);
+  }
+
+
+  span{
+      display: block;
+  }

@@ -1,0 +1,10 @@
+.display {
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+    color: rgb(40, 148, 130);
+}
+span{
+    display: inline-flex;
+}

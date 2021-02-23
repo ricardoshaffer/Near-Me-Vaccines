@@ -1,0 +1,15 @@
+.stateData {
+    background-color: rgb(255, 245, 245) ;
+    color: #5c33ff !important;
+    font-size: 0.75rem;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: none;
+    display: block;
+  }
+  .stateLabel{
+    font-weight: 800;
+  }
+  .ignored-data {
+    display: none;
+  }

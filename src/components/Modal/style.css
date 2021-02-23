@@ -1,0 +1,114 @@
+.businessName{
+  font-size: 1.25rem;
+}
+.btn-info{
+  border-color: #ff1919;
+  background-color: #ff1919;
+}
+.modal-button:hover{
+  background-color: #ff4314;
+  border-color: #ff4314;
+}
+
+.modal-backdrop {
+  background-color:#f3f3f5;
+}
+.modal-backdrop .show{
+  opacity: 0.6;
+}
+.modal-content {
+  box-shadow: 5px 5px 5px rgb(153 154 191 / 65%),
+  -5px -5px 5px rgb(255 255 255 / 25%),
+  inset 5px 5px 5px rgb(255 255 255 / 90%),
+  inset -5px -5px 5px rgb(255 255 255 / 90%);
+  border: none;
+  color: #3d2d80;
+}
+.marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    user-select: none;
+    transform: translate(-50%, -50%);
+}
+.marker:hover {
+      z-index: 1;
+    }
+.icon{
+  font-size: 1rem;
+  color: #ffffff;
+
+}
+.appt-reminder{
+  font-size: 0.75rem;
+}
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: rgb(0, 212, 219);
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 3px rgba(0, 255, 149, 0.795);
+  top: -3px;
+  right: -3px;
+  position: absolute;
+  animation: pulsate 1.5s ease-out;
+  animation-iteration-count: infinite;
+}
+.address span, .hours div{
+    display: block;
+ }
+
+/* PHASE 1AA REOPENING- HEALTHCAREWORKERS*/
+.title-1AA::before{
+  content: "Healthcare Workers Only in " !important;
+}
+.title-1AA{
+  color: #ffffff !important;
+  background-color: #5c33ff !important;
+}
+
+/* PHASE 1AB REOPENING- LONGTERM LIVING RESIDENTS*/
+.title-1AB::before{
+  content: "Healthcare Workers  + Long-Term Residents Only in ";
+}
+.title-1AB{
+  color: #ffffff !important;
+  background-color: #5c33ff !important;
+}
+/* PHASE 1BA REOPENING- ADDITIONAL FRONTLINE WORKERS*/
+.title-1BA::before{
+  content: "Longterm Residents, Healthcare + Frontline Workers Only in " !important;
+}
+.title-1BA{
+  color: #ffffff !important;
+  background-color: #5c33ff !important;
+}
+/* PHASE 1BB REOPENING- PREVIOUS + 75+ YEARS*/
+.title-1BB::before{
+  content: "75+ Years Old, Longterm Residents, HealthCare + Essential* Workers Only in" !important;
+}
+.title-1BB{
+  color: #ffffff !important;
+  background-color: #5c33ff !important;
+}
+
+/* PHASE 1A REOPENING- Ages 65+ and more + previous*/
+.title-1CA::before{
+  content: "65+ Years, Longterm Residents, Healthcare + Essential* Workers " !important;
+}
+.title-1CA{
+  color: #ffffff !important;
+  background-color: #5c33ff !important;
+}
+.title-1CC::before{
+  content: "65+ Years, Longterm Residents, Healthcare + Essential* Workers " !important;
+}
+.title-1CC{
+  color: #ffffff !important;
+  background-color: #5c33ff !important;
+}

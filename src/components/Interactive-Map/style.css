@@ -1,0 +1,11 @@
+path {
+    pointer-events: all;
+  }
+  path:hover {
+    fill:#5c33ff;
+    cursor: pointer;
+  }
+  .us-state-map{
+    width: 100%;
+    height: auto !important;
+  }

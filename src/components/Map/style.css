@@ -1,0 +1,10 @@
+.banner-warn{
+    background-color: #5c33ff;
+    color: white;
+    font-size: 1.5rem;
+}
+.loading{
+    color: #5c33ff !important;
+    font-weight: 700 !important;
+    font-size: 1.5rem;
+}

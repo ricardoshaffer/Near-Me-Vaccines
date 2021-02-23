@@ -1,0 +1,36 @@
+.list-group-item {
+  box-shadow: -1px 1px 6px rgba(0,0,0,0.1);
+  border: 0px #ffffff solid !important;
+  margin: 5px;
+}
+.list-overflow-container {
+  border: 1px #f8f8f8 solid;
+  border-radius: 4px;
+}
+
+.list-overflow-container ul {
+  margin: 0;
+}
+
+.list-overflow-container li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+}
+/* POINTING PROPERTY */
+/* .list-overflow-container li * {
+  cursor: pointer;
+} */
+
+.list-overflow-container li a {
+  color: #2A878C;
+}
+
+.list-overflow-container li:first-child {
+  border-top: none;
+}
+
+.list-overflow-container li:last-child {
+  border-bottom: none;
+}
+
