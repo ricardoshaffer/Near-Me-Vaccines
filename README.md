@@ -9,12 +9,6 @@ a React.js project to help U.S.-based humans find their local vaccination inform
 *   Utilizes Moment.js to convert ISO string to a user-friendly format for the ser, including 24 hr string to AM/PM.
 *   Google API for geolocation, javascript maps.
 
-
-## Credits
-*   Built using Bootstrap for React.js.
-*   Utilizing random employee generator provided by [randomuser.me](https://randomuser.me/api/)
-*   Built using React.js
-
 ## Functionality
 ### Landing Page
 *   landing page provides multiple methods for the user to find relevant information. On the header, the API automatically utilizes IP Address search > State >searches State DynamoDB & places relevant information.
@@ -48,3 +42,8 @@ Desktop View | Mobile View
 *   The webmaster can update, delete location information.
 ![Near Me Vaccines Back-end Formik Vaccine Site Form Submission](public/NearMe-Locations.png)
 
+## Credits
+*   Built using Bootstrap & Materialize for React.js.
+*   Moment.js for 24 hour to AM/PM, ISO string to MM/DD/YYYY.
+*   Formik form validation.
+*   Built using React.js
