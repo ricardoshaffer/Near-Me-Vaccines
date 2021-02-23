@@ -1,0 +1,84 @@
+.registration-list-img{
+    border-radius: 5px;
+    object-fit: cover;
+    height:125px;
+    width: 125px;
+    resize: both;
+    padding:0.5rem;
+    float: left;
+}
+.listing-text {
+    color: #152939 !important;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-weight: 500;
+}
+span{
+    border-bottom: none !important;
+}
+.max-width, .list-group{
+    max-width: 100%;
+    list-style-type: none !important;
+    word-wrap: break-word;
+}
+.no-bullets{
+    list-style-type: none !important;
+    padding-inline-start: 1rem !important;
+}
+.state-data{
+    max-width:100%;
+}
+.update-btn {
+    font-size: inherit;
+    margin: 0.2em;
+}
+/* PHASE 1AA REOPENING- HEALTHCAREWORKERS*/
+.title-1AA::before{
+    content: "Healthcare Workers Only in ";
+}
+.title-1AA{
+    color: #ffffff !important;
+    background-color: #5c33ff;
+}
+
+/* PHASE 1AB REOPENING- LONGTERM LIVING RESIDENTS*/
+.title-1AB::before{
+    content: "Healthcare Workers  + Long-Term Residents Only in ";
+}
+.title-1AB{
+    color: #ffffff !important;
+    background-color: #5c33ff;
+}
+/* PHASE 1BA REOPENING- ADDITIONAL FRONTLINE WORKERS*/
+.title-1BA::before{
+    content: "Longterm Residents, Healthcare + Frontline Workers Only in ";
+}
+.title-1BA{
+    color: #ffffff !important;
+    background-color: #5c33ff;
+}
+/* PHASE 1BB REOPENING- PREVIOUS + 75+ YEARS*/
+.title-1BB::before{
+    content: "75+ Years Old, Longterm Residents, HealthCare + Essential* Workers Only in";
+}
+.title-1BB{
+    color: #ffffff !important;
+    background-color: #5c33ff;
+}
+
+/* PHASE 1A REOPENING- Ages 65+ and more + previous*/
+.title-1CA::before{
+    content: "65+ Years, Longterm Residents, Healthcare + Essential* Workers ";
+}
+.title-1CA{
+    color: #ffffff !important;
+    background-color: #5c33ff;
+}
+
+/* IF NO STATE DATA IS AVAILABLE */
+.missing-Data{
+    color: #5c33ff !important;
+    font-size: 1.5rem;
+  }
+
+
