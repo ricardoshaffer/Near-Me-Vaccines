@@ -1,0 +1,64 @@
+.about {
+    color: #fff !important;
+}
+.about-icon{
+    float: left;
+    font-size: 2.5rem;
+    padding: 5px;
+    display: block;
+}
+.about-info {
+    color: #fff !important;
+    font-size: 1.0rem;
+    font-weight: normal;
+    text-align: left !important;
+}
+.about-float{
+    color: #504092;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: left;
+}
+.about-float p {
+    padding: 0px;
+}
+.about-subtitle{
+    color: #504092 !important;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+    max-width: 350px;
+    text-align: left;
+}
+.about-container{
+    height: 100%;
+    background-color: rgba(28, 13, 95, 0.45);
+}
+.jumbotron-about {
+    background-color: #201dcf !important;
+    padding: 1rem 1rem !important;
+    background-image: url('https://burst.shopifycdn.com/photos/man-orders-coffee-while-wearing-face-mask.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+  background-position: center;
+}
+/* .row{
+    background-color: rgba(92, 51, 255,0.0) !important;
+} */
+
+@media (min-width: 576px){
+.about-info {
+    font-size: 1.5rem;
+}
+.jumbotron {
+    padding: 1rem 1rem !important;
+    height: 350px;
+}
+h1.about {
+    font-size: 4.5rem !important;
+}
+h2.about {
+    font-size: 3rem !important;
+}
+}
