@@ -1,0 +1,23 @@
+.registration-list-img{
+    border-radius: 5px;
+    object-fit: cover;
+    height:125px;
+    width: 125px;
+    resize: both;
+    padding:0.5rem;
+    float: left;
+}
+.listing-text{
+    color: #152939 !important;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-weight: 500;
+}
+.update-btn {
+    font-size: inherit;
+    margin: 0.2em;
+}
+.form-btn.small.btn{
+    font-size: 0.5rem;
+    padding:0.125rem;
+}
