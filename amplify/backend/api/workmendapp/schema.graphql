@@ -1,0 +1,38 @@
+type Todo @model {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  businessName: String!
+  businessPhone: String!
+  businessAddress: String!
+  city: String!
+  state: String!
+  zip: String!
+  lat: String
+  lng: String
+  image: String
+  monO: String
+  monC: String
+  tueO: String
+  tueC: String
+  wedO: String
+  wedC: String
+  thuO: String
+  thuC: String
+  friO: String
+  friC: String
+  satO: String
+  satC: String
+  sunO: String
+  sunC: String
+  itemsIncluded: [String]
+  walkInAvailable: Boolean
+  website: String
+}
+type StateInfo @model {
+  id: ID!
+  stateID: String!
+  currentPhase: String!
+  history: String!
+  websiteState: String!
+}

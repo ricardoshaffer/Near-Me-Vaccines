@@ -1,0 +1,356 @@
+.App {
+  text-align: center;
+  color: #152939;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  /* font-family: 'Questrial', Arial, Helvetica, sans-serif; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #220942;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background: inherit;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  /* font-family: 'Questrial', Arial, Helvetica, sans-serif; */
+  letter-spacing: -0.05vw;
+  height:100vh;
+}
+.body-main{
+  background-color: #11253d;
+}
+.btn {
+  text-align: center;
+}
+.btn a{
+  color: #fff;
+}
+.btn a:hover{
+  color: #ff3333;
+}
+.card-img-top {
+  max-width: 75%;
+  aspect-ratio: 1;
+  align-content: center;
+}
+.card-title {
+  font-weight: 800;
+  text-align: center;
+
+}
+.container-padding {
+  padding: 15px;
+}
+.row {
+  margin-bottom: 2rem;
+  /* background-color:inherit; */
+}
+.Global {
+  background-color: #fdfdfd;
+}
+.homeName {
+  font-size: 5em;
+  padding: 1vw;
+  text-align: center;
+  text-shadow:1px 2px 3px rgba(183, 198, 221, 0.6);
+  line-height:0.8em;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  /* font-family: 'Questrial', Arial, Helvetica, sans-serif; */
+}
+.homeTitle{
+  font-size: 2em;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  /* font-family: 'Questrial', Arial, Helvetica, sans-serif; */
+  font-weight: bolder;
+}
+h1, h2, h3, h4 {
+  color: #fff;
+}
+.mr-auto .nav-home {
+  color: #ffffff !important;
+}
+
+.home-banner {
+  font-size: 2.5rem;
+  text-shadow: 0px 0px 0.6rem rgba(238, 56, 0, 0.6), 0px -0px 3px rgba(255, 255, 255, 0.0);
+  font-weight: 550;
+  color: #fff !important;
+}
+.navbar {
+  background: none;
+  /* background: linear-gradient(180deg, #ecba98, #f7dac0) no-repeat center center fixed;  */
+}
+.nav-link {
+  color: #152939 !important;
+  font-weight: normal !important;
+  font-size: 1.2rem;
+}
+html {
+  /* background: linear-gradient(180deg, #8c00dd, #601cff) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+@media print {
+  .jumbotron-fluid {
+  page-break-after: always;
+}
+}
+
+.item-logo{
+  width: 56%;
+  overflow: visible;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.paint-size{
+  width: 100%;
+  overflow: hidden;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.jumbotron{
+  padding:none !important;
+  margin-bottom: 0px !important;
+}
+@media (min-width: 576px){
+  .jumbotron {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .parallax-sizes{
+    background-color:inherit;
+    height: 450px !important;
+    /* max-height: '350px';
+    min-height: '250px'; */
+  }
+ .parallax-banner-layer-1 {
+    background-size: 80% !important;
+  }
+  .card-text {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+@media (max-width: 575px){
+  .parallax-sizes{
+    max-height: 250px;
+    background-color: #ff3333;
+  }
+  .parallax-banner {
+    background-size: 100%;
+    border:none !important;
+  }
+}
+.jumbotron{
+  background-color: #fff;  
+}
+.jumbotron-fluid {
+  height: 200px;
+  background-repeat: no-repeat;
+  /* background-image: url('./images/paint.svg')!important; */
+  background-color: inherit !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  place-content: center;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+.paint-container {
+  width: 100%;
+  max-height: 300px;
+  display: flex;
+  place-content: center;
+  overflow: hidden;
+}
+.parallax-banner-layer-0, .parallax-banner-layer-1{
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  border: none !important;
+  margin-bottom: 0px !important;
+}
+.nav-link.nav-tools {
+  font-size: 0.8em;
+  font-weight: normal;
+  color:#ff3333 !important;
+}
+.navigation {
+  font-size: 1.4em;
+  
+}
+.spin-container {
+  width: 150px;
+  height: 150px;
+  background: rgba(255,255,255,0.25);
+  border-radius: 30px;
+  border: solid white 1px;
+}
+  .neomorph-card {
+    border: none !important;
+    color: #fff;
+    padding:5px;
+    background-color:#5c33ff !important;
+    margin-bottom: 5px;
+    box-shadow: 9px 9px 16px rgba(255,255,255, 0.75), -9px -9px 16px rgba(99, 97, 94, 0.25);
+    -webkit-box-shadow: 9px 9px 16px rgba(255,255,255, 0.75), -9px -9px 16px rgba(99, 97, 94, 0.25);
+    -moz-box-shadow: 9px 9px 16px rgba(255,255,255, 0.75), -9px -9px 16px rgba(99, 97, 94, 0.25);
+  }
+
+p {
+  margin-bottom: 0px;
+  padding:1em;
+}
+.bg-clear {
+  background-color: transparent !important;
+}
+.footer-nav{
+  bottom: 5px;
+  font-size: 0.8 rem;
+  color: #707f8b !important;
+}
+.footer-nav a{
+  font-size: 0.9rem;
+  color: #707f8b !important;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  display:block;
+  margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.list-group-item {
+  padding: 0px !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+.list-group-item a, .list-group-item a:hover{
+  color: #ffffff;
+}
+.project {
+  color: #fff;
+}
+
+.project-title {
+  color: #fff;
+}
+.project-description{
+  color: #fff;
+}
+.card {
+  border: none !important;
+}
+.card-img-overlay {
+  color: #ff3333 !important;
+  padding: 2vw;
+  vertical-align: middle !important;
+}
+.card-text {
+  font-size: 1.3rem;
+  margin-block-end: 0em;
+  text-shadow: 0px 0px 5px rgba(43, 17, 51, 0.9);
+}
+.card-text-no-shadow {
+  font-size: 1.3rem;
+  margin-block-end: 0em;
+  text-shadow: none !important;
+}
+.container-fluid{
+  padding-bottom: 15px;
+  /* background-image: url('https://burst.shopifycdn.com/photos/medical-toy-flatlay.jpg'); */
+  background-size: cover;
+  background-position: center center;
+}
+
+.container-fluid.home {
+  background-color: #6c64df;
+}
+.container-row-project {
+  
+}
+.container-row-project .row {
+  border-radius: 2vh;
+  background-color: transparent !important;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: 6px 6px 9px rgba(72, 0, 105, 0.2), -5px -5px 4px rgba(151, 124, 250, 0.3);
+  -webkit-box-shadow: 6px 6px 9px rgba(72, 0, 105, 0.2), -5px -5px 4px rgba(151, 124, 250, 0.3);
+  -moz-box-shadow: 6px 6px 9px rgba(72, 0, 105, 0.2), -5px -5px 4px rgba(151, 124, 250, 0.3);
+  text-align: left;
+}
+.bounce-in {
+  box-shadow: inset 6px 6px 9px rgba(72, 0, 105, 0.2), 5px 5px 4px rgba(151, 124, 250, 0.3) !important;
+  -moz-box-shadow: inset 6px 6px 9px rgba(72, 0, 105, 0.2), 5px 5px 4px rgba(151, 124, 250, 0.3) !important;
+  -webkit-box-shadow: inset 6px 6px 9px rgba(72, 0, 105, 0.2), 5px 5px 4px rgba(151, 124, 250, 0.3) !important;
+}
+
+.vertical-timeline-element-content-arrow {
+  box-shadow: inset 1px 1px 2px rgba(72, 0, 105, 0.4), 1px 1px 2px rgba(151, 124, 250, 0.2) !important;
+  -webkit-box-shadow: inset 1px 1px 2px rgba(72, 0, 105, 0.4), 1px 1px 2px rgba(151, 124, 250, 0.2) !important;
+  -moz-box-shadow: inset 1px 1px 2px rgba(72, 0, 105, 0.4), 1px 1px 2px rgba(151, 124, 250, 0.2) !important;
+}
+.vertical-timeline-element-date {
+  font-size: 2em !important;
+}
+
+.form-btn {
+  background-color: #ff3333 !important;
+  border-color: transparent !important;
+  margin: 5px;
+}
+.form-btn:hover {
+  background-color: #ff0f0f !important;
+  border-color: transparent !important;
+  margin: 5px;
+}
+.business-form {
+  background-color: #f7f5f3;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 9px 9px 16px rgba(255,255,255, 0.8), -6px -6px 12px    rgba(121, 94, 64, 0.45);
+  -webkit-box-shadow: 3px 3px 2px rgba(255,255,255, 0.8), -6px -6px 12px    rgba(121, 94, 64, 0.45);
+  -moz-box-shadow: 3px 3px 2px rgba(255,255,255, 0.8), -6px -6px 12px    rgba(121, 94, 64, 0.45);
+}
