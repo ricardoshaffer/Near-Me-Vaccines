@@ -1,5 +1,6 @@
 # Near-Me-Vaccines
-a React.js project to help U.S.-based humans find their local vaccination informtion.
+a React.js project to help U.S.-based humans find their local vaccination information. Visit
+[**Near Me Vaccines**](https://master.d2qp96ubzo7eda.amplifyapp.com/)
 
 ## Architecture
 *   Built using react.js
