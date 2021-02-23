@@ -1,0 +1,22 @@
+.terms.container{
+    color: #504092 !important;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #504092 !important;
+
+}
+.terms-heading{
+    text-align: center !important;
+    color: #504092 !important;
+}
+.terms-list li{
+    color: #504092 !important;
+}
+.terms-table{
+    color: #504092 !important;
+}
+.terms-text{
+    text-align: left !important;
+}
